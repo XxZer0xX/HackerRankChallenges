@@ -17,7 +17,7 @@ namespace BotCleaning
 		public Dictionary<Tuple<int, int>, IPlayableLocation> Metadata { get; }
 
 		public ICharacter PlayableCharacter { get; private set; }
-		public int Bounds => Details.Length - 1;
+		public int Bounds => Details.Length - 1; 
 		public double ScoreRadiationThreshold { get; set; }
 
 		public CharacterSymbols[][] Details { get; }
